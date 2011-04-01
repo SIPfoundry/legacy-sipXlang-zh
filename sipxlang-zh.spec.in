@@ -15,6 +15,7 @@ Url: http://www.sipfoundry.org
 BuildArch: noarch
 
 BuildRequires: automake
+BuildRequires: java-devel
 
 Source: %name-%version.tar.gz
 
