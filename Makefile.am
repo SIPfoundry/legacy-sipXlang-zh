@@ -7,7 +7,7 @@ EXTRA_DIST = \
 	sipxlang-@LANG_ID@.spec
 
 prompts_SOURCE = $(shell find $(srcdir)/stdprompts -name '*.wav' -type f -printf '%P\n')
-conf_DATA = sipxlang-@LANG_ID@.jar
+confplugin_DATA = sipxlang-@LANG_ID@.jar
 
 install-data-hook :
 	echo "$$Installer" | \
