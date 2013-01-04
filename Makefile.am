@@ -1,9 +1,9 @@
 include config/lang.am
+include config/project.am
 
-EXTRA_DIST = \
+@PACKAGE@_EXTRA_DIST = \
 	sipxpbx \
 	stdprompts \
-	config/revision-gen \
 	sipxlang-@LANG_ID@.spec
 
 prompts_SOURCE = $(shell find $(srcdir)/stdprompts -name '*.wav' -type f -printf '%P\n')
